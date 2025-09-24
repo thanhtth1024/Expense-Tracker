@@ -1,0 +1,20 @@
+:root{--bg:#f8fafc;--card:#ffffff;--accent:#3b82f6}
+*{box-sizing:border-box}
+body{font-family:Inter, Arial, sans-serif;background:var(--bg);margin:0;color:#111}
+.container{max-width:1000px;margin:20px auto;padding:16px}
+header{display:flex;justify-content:space-between;align-items:center}
+header h1{margin:0}
+.total{font-weight:700}
+main{display:grid;grid-template-columns:320px 1fr;gap:16px;margin-top:16px}
+aside .form, .chart{background:var(--card);padding:12px;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,0.06);margin-bottom:12px}
+.form input, .form select{width:100%;padding:8px;margin-bottom:8px;border:1px solid #e5e7eb;border-radius:6px}
+.form .row{display:flex;gap:8px}
+.form button{width:100%;padding:8px;border:none;background:var(--accent);color:#fff;border-radius:6px}
+.list{background:var(--card);padding:12px;border-radius:8px}
+.list-header{display:flex;justify-content:space-between;align-items:center}
+.item{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.item:last-child{border-bottom:none}
+.amount{font-weight:700}
+.del{margin-left:8px;background:transparent;border:none;color:#ef4444;cursor:pointer}
+.empty{color:#6b7280}
+footer{text-align:center;margin-top:16px;color:#6b7280}

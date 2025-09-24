@@ -1,0 +1,68 @@
+/* styles.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f6f1; /* pastel be */
+  margin: 0;
+  padding: 0;
+  color: #6B4226; /* nâu cam nhạt */
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.card, .forecast {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+}
+
+.card h2, .forecast h3 {
+  color: #6B4226; /* đồng bộ heading */
+  margin-bottom: 1rem;
+}
+
+.temp {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #6B4226;
+}
+
+.desc {
+  font-size: 1rem;
+  color: #8a6d5a; /* xám nâu nhẹ */
+}
+
+.meta {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 0.75rem;
+}
+
+.hour {
+  text-align: center;
+  font-size: 0.9rem;
+  background: #faf8f5;
+  padding: 0.5rem;
+  border-radius: 8px;
+  color: #6B4226;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #999;
+  text-align: center;
+}
